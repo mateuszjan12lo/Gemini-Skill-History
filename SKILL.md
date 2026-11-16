@@ -1,25 +1,26 @@
 ---
 name: humanizer-tekstow-pro
-description: Wielowarstwowy, rygorystyczny korektor anty-AI (11 warstw ochrony) dla polskich tekstów szkolnych i akademickich (rozprawki, eseje, referaty, opracowania, odpowiedzi na sprawdziany z historii i innych przedmiotów, prace zaliczeniowe, tabelki i kalendaria z datami). Wykrywa i eliminuje nagromadzenie sygnałów AI: przewidywalne słownictwo i ulubione wyrazy modeli (aspekt, wymiar, kontekst, perspektywa, holistyczny), katalogowe metafory (krajobraz, mozaika, podróż, filar, most), kalki z angielskiego (na koniec dnia, adresować problem, odgrywa kluczową rolę), asekurację (może, potencjalnie, w pewnym stopniu), fałszywą równowagę, definicyjne otwarcia, pytania retoryczne, urzędową watę słowną, stronę bierną, zwracanie się per Ty, jednolitą długość akapitów (4-6 zdań), schemat Wstęp-3 punkty-Wnioski, ozdobne myślniki i dwukropki oraz formatowanie Markdown (tabelki, pogrubienia, listy). Przepisuje tekst prostym, naturalnym językiem ucznia lub studenta ze zmienionym szykiem i zróżnicowanym rytmem zdań, zachowując 100% dat, faktów, odniesień do zajęć i informacji merytorycznych. Używaj zawsze, gdy użytkownik wkleja gotowy tekst po polsku i prosi o jego przerobienie, uproszczenie słownictwa, zmianę szyku zdań, przerobienie tabelki z datami na naturalny tekst, usunięcie śladów AI lub obniżenie wykrywalności w detektorach (np. Pangram, GPTZero, Turnitin).
+description: Wielowarstwowy, rygorystyczny korektor anty-AI (12 warstw ochrony) dla polskich tekstów szkolnych i akademickich (rozprawki, eseje, referaty, opracowania, odpowiedzi na sprawdziany z historii i innych przedmiotów, prace zaliczeniowe, tabelki i kalendaria z datami). Wykrywa i eliminuje nagromadzenie sygnałów AI: przewidywalne słownictwo i ulubione wyrazy modeli (aspekt, wymiar, kontekst, perspektywa, holistyczny), katalogowe metafory (krajobraz, mozaika, podróż, filar, most), kalki z angielskiego (na koniec dnia, adresować problem, odgrywa kluczową rolę), asekurację (może, potencjalnie, w pewnym stopniu), fałszywą równowagę, definicyjne otwarcia, pytania retoryczne, urzędową watę słowną, stronę bierną, zwracanie się per Ty, jednolitą długość akapitów (4-6 zdań), schemat Wstęp-3 punkty-Wnioski, gładkość podręcznikową i symetryczne pary zdań wykrywane przez Pangram, ozdobne myślniki i dwukropki oraz formatowanie Markdown (tabelki, pogrubienia, listy). Przepisuje tekst prostym, naturalnym językiem ucznia lub studenta ze zmienionym szykiem i zróżnicowanym rytmem zdań, zachowując 100% dat, faktów, odniesień do zajęć i informacji merytorycznych. Używaj zawsze, gdy użytkownik wkleja gotowy tekst po polsku i prosi o jego przerobienie, uproszczenie słownictwa, zmianę szyku zdań, przerobienie tabelki z datami na naturalny tekst, usunięcie śladów AI lub obniżenie wykrywalności w detektorach (np. Pangram, GPTZero, Turnitin).
 ---
 
 # humanizer-tekstow-pro
 
-Skill działa jako rygorystyczny, 11-warstwowy redaktor i korektor anty-AI dla polskich tekstów szkolnych oraz akademickich dostarczonych przez użytkownika. Detektory oraz prowadzący rzadko reagują na pojedynczy wyraz, ale natychmiast wychwytują nagromadzenie schematów statystycznych, powtarzalnych konstrukcji i braku konkretu. Skill usuwa wszystkie te warstwy jednocześnie, zachowując 100% dat, faktów, nazwisk z wykładów i sensu oryginału.
+Skill działa jako rygorystyczny, 12-warstwowy redaktor i korektor anty-AI dla polskich tekstów szkolnych oraz akademickich dostarczonych przez użytkownika. Detektory oraz prowadzący rzadko reagują na pojedynczy wyraz, ale natychmiast wychwytują nagromadzenie schematów statystycznych, powtarzalnych konstrukcji, encyklopedycznej gładkości i braku konkretu. Skill usuwa wszystkie te warstwy jednocześnie, zachowując 100% dat, faktów, nazwisk z wykładów i sensu oryginału.
 
 ## Kiedy używać
 
 Użyj tego skilla, gdy użytkownik wkleja gotowy tekst po polsku i prosi o:
 
 - humanizację, przeredagowanie lub przepisanie tekstu szkolnego albo akademickiego (rozprawka, esej, referat, notatka, odpowiedź na pytanie otwarte ze sprawdzianu, praca zaliczeniowa),
-- przerobienie tekstu historycznego lub tabelki z datami na naturalny, prosty zapis bez schematów AI,
+- przerobienie tekstu historycznego, odpowiedzi na zadania lub tabelki z datami na naturalny, prosty zapis bez schematów AI,
 - usunięcie nagromadzenia „ulubionych” słów AI, kalek z angielskiego, asekuracji, fałszywej równowagi i katalogowych metafor,
+- przełamanie podręcznikowej gładkości składni i symetrii par wykrywanej przez klasyfikatory neuronowe (np. Pangram 4.1),
 - rozbicie równej długości akapitów (4-6 zdań) oraz sztywnego schematu „Wstęp, Rozwinięcie w 3 punktach, Wnioski”,
 - wyczyszczenie tekstu z myślników, ozdobnych dwukropków, pogrubień, tabelek Markdown i ukrytych znaków przed sprawdzeniem w detektorach AI (np. Pangram, GPTZero, Turnitin).
 
 Nigdy nie pisz prac od zera bez tekstu źródłowego od użytkownika. Jeśli użytkownik nie wkleił tekstu do przerobienia, poproś wyłącznie o jego przesłanie.
 
-## Proces przetwarzania (11 warstw ochrony)
+## Proces przetwarzania (12 warstw ochrony)
 
 ### Warstwa 1: Zabezpieczenie 100% wartości merytorycznej, dat, liczb i konkretów z zajęć
 Zanim zmienisz pierwsze słowo, wyodrębnij z tekstu wejściowego wszystkie fakty, daty dzienne i roczne, liczby, nazwiska, tytuły lektur, odniesienia do wykładu lub sylabusa, nazwy traktatów, przyczyny, skutki oraz pojęcia przedmiotowe.
@@ -72,7 +73,7 @@ Detektory statystyczne analizują przewidywalność doboru słów (niskie „zas
   - `posiadłości zamorskie / arena międzynarodowa` -> `kolonie / polityka międzynarodowa`
   - `dokonanie analizy / nastąpił wzrost / odnotowano spadek` -> `przeanalizowanie / wzrosło / spadło`
 
-**Wyjątek przedmiotowy:** Zostaw bez zmian konkretne terminy wymagane przez temat lekcji lub dziedzinę nauki (np. `metropolia`, `surowce`, `pozytywizm`, `fotosynteza`, `inflacja`, `feudalizm`, `unia personalna`, `chrzest`, `koronacja`, `trójpodział władzy`).
+**Wyjątek przedmiotowy:** Zostaw bez zmian konkretne terminy wymagane przez temat lekcji lub dziedzinę nauki (np. `metropolia`, `surowce`, `pozytywizm`, `fotosynteza`, `inflacja`, `feudalizm`, `unia personalna`, `chrzest`, `koronacja`, `trójpodział władzy`, `deklasacja`, `gospodarstwa towarowe`).
 
 ### Warstwa 4: Usuwanie kalek z języka angielskiego i zwrotów „per Ty”
 Polskie teksty generowane przez modele językowe są pełne dosłownych tłumaczeń z angielskiego oraz nieakademickiego zwrotu do czytelnika:
@@ -117,7 +118,15 @@ AI tworzy akapity o identycznej długości (4-6 zdań) i wtłacza nawet krótkie
 - **Zlikwiduj sztuczny podział na 3 punkty w krótkiej prozie:** W krótkim eseju lub odpowiedzi na jedną stronę połącz rozbite na siłę 3 podpunkty w naturalnie płynący wywód bez mechanicznego wyliczania `Po pierwsze... Po drugie... Po trzecie...`.
 - **Zmień szyk i mieszaj długość zdań:** Przestaw kolejność elementów w zdaniu (zacznij od daty, miejsca, przyczyny lub podmiotu). Przeplataj krótkie zdania (4-8 słów) z dłuższymi zdaniami złożonymi (14-22 słowa). Żadne dwa sąsiadujące zdania nie mogą zaczynać się od tego samego słowa.
 
-### Warstwa 9: Bezwzględne czyszczenie typografii, dwukropków, myślników i znaków
+### Warstwa 9: Łamanie gładkości podręcznikowej i symetrii składniowej (Anty-Pangram)
+Klasyfikatory neuronowe (np. Pangram 4.1) wykrywają niską entropię i encyklopedyczną gładkość zdań nawet wtedy, gdy w tekście nie ma już myślników ani trudnych wyrazów. Przełamuj podręcznikowy ton w każdym akapicie i zadaniu:
+
+- **Zakaz fraz z repetytorium i gotowców podręcznikowych:** Usuń wygładzone przejścia typu `zmagała się przede wszystkim z`, `tamtejsze [rzeczownik] pozostawało`, `zupełnie inaczej wyglądała sytuacja w..., gdzie`, `bez przeszkód sprzedawać swoje towary`, `najwięcej zyskał na tej zmianie`.
+- **Rozbijanie symetrycznych par (`X oraz Y`, `czasownik A i czasownik B`):** Nie buduj obok siebie zdań opartych na podwójnym, lustrzanym schemacie (np. `korzystali z X i prowadzili Y` oraz w sąsiednim zdaniu `pozostawało X i dawało Y`). Zamiast równoległego wyliczenia użyj zwykłego zdania podrzędnego z `bo`, `więc`, `przez co`, `a ich...`.
+- **Asymetria między kolejnymi zadaniami lub akapitami:** Jeśli tekst składa się z kilku krótkich odpowiedzi (np. Zadanie 1, 2, 3), nie układaj każdej odpowiedzi według identycznego 3-zdaniowego wzoru `wprowadzenie - rozwinięcie - puenta`. Jedną odpowiedź zapisz w dwóch krótszych zdaniach, kolejną w trzech o różnej długości, a następną zacznij bezpośrednio od daty lub konkretnego faktu.
+- **Naturalna chropowatość uczniowska:** Zastąp encyklopedyczne zwroty prostszymi konstrukcjami czasownikowymi (`wzrosło zapotrzebowanie na wyroby` -> `zapotrzebowanie na wyroby mocno skoczyło`; `powstawały nowe miejsca pracy` -> `przybywało pracy dla ludzi`; `najwięcej zyskał przemysł włókienniczy` -> `najbardziej rozwinęło się wtedy włókiennictwo`).
+
+### Warstwa 10: Bezwzględne czyszczenie typografii, dwukropków, myślników i znaków
 Detektory oraz nauczyciele natychmiast rozpoznają tekst maszynowy po znakach interpunkcyjnych i typograficznych:
 
 - **Zero myślników, półpauz i pauz w zdaniach:** Usuń wszystkie znaki pauzy (`—`), półpauzy (`–`) oraz wtrącenia ze zwykłym myślnikiem otoczonym spacjami (` - `). Dotyczy to także przedziałów dat (zamiast `1939–1945` napisz `od 1939 do 1945 roku`). Zwykły łącznik (`-`) bez spacji zostaw wyłącznie w złożeniach ortograficznych (np. `czarno-biały`, `przyczynowo-skutkowy`, `społeczno-gospodarczy`, `polsko-litewski`).
@@ -125,12 +134,12 @@ Detektory oraz nauczyciele natychmiast rozpoznają tekst maszynowy po znakach in
 - **Tylko proste znaki z klawiatury:** Zastąp cudzysłowy drukarskie (`„`, `”`, `«`, `»`) oraz typograficzne apostrofy (`’`) zwykłymi prostymi znakami (`"` oraz `'`). Zastąp pojedynczy znak wielokropka (`…`) trzema zwykłymi kropkami (`...`), a najlepiej całkowicie zrezygnuj z wielokropków.
 - **Zero ukrytych znaków Unicode i ozdobnych czcionek:** Używaj wyłącznie standardowych liter polskiego alfabetu i podstawowych znaków ASCII. Usuwaj twarde spacje, spacje o zerowej szerokości, ozdobne punktory (`•`, `▪`, `→`) oraz matematyczne znaki Unicode udające inną czcionkę.
 
-### Warstwa 10: Całkowite usunięcie formatowania Markdown, pogrubień pojęć i tabelek
+### Warstwa 11: Całkowite usunięcie formatowania Markdown, pogrubień pojęć i tabelek
 - **Czysty tekst (plain text) zamiast prozy z nagłówkami i wypunktowaniami:** Usuń pogrubienia „kluczowych pojęć” w akapitach (`**tekst**`), kursywę (`*tekst*`), nagłówki z kratką (`#`) oraz listy wypunktowane w tekstach, które powinny być ciągłą prozą (np. esej, rozprawka, referat). Jeśli w tekście źródłowym występuje śródtytuł, zapisz go jako zwykłą linię tekstu bez gwiazdek i pogrubień.
 - **Przerabianie tabelek Markdown i kalendariów z datami:** Jeśli użytkownik wkleja tabelkę z datami (`| Rok | Wydarzenie | Skutki |`) albo punktowaną oś czasu, usuń wszystkie pionowe kreski (`|`), myślniki oddzielające kolumny (`---`) i pogrubienia. Przepisz zawartość tabelki na spójne, naturalne akapity tekstu ciągłego, zachowując 100% danych z każdego wiersza i kolumny.
 - **Czyste odstępy:** Stosuj wyłącznie pojedyncze zwykłe spacje między wyrazami. Brak podwójnych spacji, brak spacji przed znakami interpunkcyjnymi i maksymalnie jedna pusta linia między akapitami.
 
-### Warstwa 11: 10-punktowy audyt końcowy przed oddaniem tekstu
+### Warstwa 12: 11-punktowy audyt końcowy przed oddaniem tekstu
 Przed zwróceniem odpowiedzi sprawdź tekst według poniższej listy kontrolnej:
 
 1. **Typografia:** Zero myślników, półpauz, pauz, średników, ozdobnych dwukropków, cudzysłowów drukarskich i znaków specjalnych Unicode (również w datach).
@@ -141,8 +150,9 @@ Przed zwróceniem odpowiedzi sprawdź tekst według poniższej listy kontrolnej:
 6. **Wata słowna i strona bierna:** Zero urzędowych wypełniaczy i sztucznej strony biernej.
 7. **Składnia i zaimki:** Zero otwarć `Warto...`, `Należy...`, `Kolejnym...`, `Istotnym...`, zero imiesłowowych ogonów i powtórzeń `który`.
 8. **Architektura akapitów:** Zróżnicowana liczba zdań w akapitach (brak schematu 4-6 zdań w każdym akapicie) oraz brak pustych podsumowań na końcach akapitów.
-9. **Rytm:** Wyraźnie zmieniony szyk względem oryginału i zróżnicowana długość sąsiadujących zdań.
-10. **Fakty, daty i konkret z zajęć:** Zachowane 100% dat, liczb, nazwisk z wykładu/lektur i informacji z oryginału, bez dopisywania zmyślonych badań czy bibliografii.
+9. **Anty-Pangram (gładkość i symetria):** Usunięte gotowce podręcznikowe (`zmagała się przede wszystkim z`, `zupełnie inaczej wyglądała sytuacja w`), rozbite lustrzane pary `czasownik A i czasownik B` oraz przełamana powtarzalna budowa kolejnych odpowiedzi.
+10. **Rytm:** Wyraźnie zmieniony szyk względem oryginału i zróżnicowana długość sąsiadujących zdań.
+11. **Fakty, daty i konkret z zajęć:** Zachowane 100% dat, liczb, nazwisk z wykładu/lektur i informacji z oryginału, bez dopisywania zmyślonych badań czy bibliografii.
 
 Zwróć użytkownikowi wyłącznie gotowy, czysty tekst, bez żadnych wstępów, powitań, wyjaśnień ani komentarzy końcowych.
 
@@ -153,15 +163,16 @@ Zwróć użytkownikowi wyłącznie gotowy, czysty tekst, bez żadnych wstępów,
 3. **Pułapka myślników i ozdobnych dwukropków:** Pozostawienie półpauzy w zapisie `1772–1795`, wtrącenia ` - czyli - ` albo dwukropka przed wyliczeniem w kilku zdaniach z rzędu zdradza tekst z generatora. Zakresy lat zapisuj słownie (`od 1772 do 1795 roku`), a wyliczenia wplataj zdaniami.
 4. **Pułapka asekuracji i fałszywej równowagi:** Dodawanie w każdym zdaniu `może`, `potencjalnie`, `w pewnym stopniu` oraz dopisywanie na siłę `Z jednej strony... z drugiej strony` pozbawia pracę własnego stanowiska i podbija wynik AI.
 5. **Pułapka katalogowych metafor i kalek z angielskiego:** Używanie słów `krajobraz`, `mozaika`, `podróż`, `filar`, `na koniec dnia`, `adresować problem` czy `odgrywa kluczową rolę` natychmiast zdradza tłumaczenie schematów modeli językowych.
-6. **Pułapka równej długości akapitów (4-6 zdań) i schematu „3 punkty”:** Jeśli wszystkie akapity mają po 5 zdań i układają się w sztywny schemat `Po pierwsze... Po drugie... Po trzecie...`, tekst wygląda jak wygenerowany z szablonu. Różnicuj objętość akapitów.
-7. **Pułapka zwracania się per „Ty” w pracy akademickiej:** Formy typu `zauważysz`, `musisz wiedzieć`, `wyobraź sobie` w rozprawce lub eseju na studia są rażącym błędem stylistycznym i sygnałem AI.
-8. **Pułapka „halucynacji faktograficznej” i zmyślonych badań:** Nie dopisuj od siebie przyczyn, dat, nazwisk, okrągłych procentów bez źródła ani fikcyjnych pozycji bibliograficznych, których nie było w tekście użytkownika.
-9. **Pułapka zgubienia lub pomylenia daty albo liczby:** Podczas zmiany szyku zdania nie wolno przestawić daty do innego wydarzenia ani zaokrąglić liczby (np. `17 września 1939` nie może zamienić się w `w połowie września`).
-10. **Pułapka usuwania terminów przedmiotowych i konkretów z zajęć:** Nie opisuj naokoło pojęć wymaganych na sprawdzianie (np. `unia personalna`) i nigdy nie wycinaj nazwisk badaczy czy lektur omawianych na wykładzie.
-11. **Pułapka mowy potocznej i błędów językowych:** Prosty język szkolny musi pozostać poprawny gramatycznie, ortograficznie i interpunkcyjnie (zakaz słów typu `mega`, `fajnie`, `totalnie`, `super`, `ogólnie rzecz biorąc`).
-12. **Pułapka „imiesłowowych ogonów” i powtarzalnych otwarć:** Dopisywanie na końcu zdania `, co doprowadziło do...` lub zaczynanie kolejnych zdań od `Warto...`, `Należy...`, `Kolejnym...`, `Istotnym...` natychmiast podbija wynik w detektorze.
-13. **Pułapka identycznego rytmu zdań:** Jeśli wszystkie zdania po przeróbce mają po 12 słów i ten sam szyk (podmiot + orzeczenie + dopełnienie), detektor oznaczy tekst jako maszynowy. Mieszaj krótkie zdania (4-8 słów) z dłuższymi (14-22 słowa).
-14. **Pułapka komentarzy modelu:** Nigdy nie dodawaj przed tekstem ani po nim zdań typu `Oto przeredagowany tekst:` albo `Mam nadzieję, że to pomoże!`. Oddajesz wyłącznie czysty tekst docelowy.
+6. **Pułapka podręcznikowej gładkości i symetrycznych par (efekt repetytorium pod Pangram):** Nawet bez myślników i trudnych słów detektory neuronowe wyłapują gładkie zwroty z repetytorium (`zmagała się przede wszystkim z`, `zupełnie inaczej wyglądała sytuacja w..., gdzie`) oraz powtarzające się w sąsiednich zdaniach lustrzane pary typu `pozostawało X i dawało Y`, `korzystali z A i prowadzili B`. Zastępuj je prostą składnią uczniowską ze spójnikami `bo`, `więc`, `przez co`.
+7. **Pułapka równej długości akapitów (4-6 zdań) i schematu „3 punkty”:** Jeśli wszystkie akapity mają po 5 zdań i układają się w sztywny schemat `Po pierwsze... Po drugie... Po trzecie...`, tekst wygląda jak wygenerowany z szablonu. Różnicuj objętość akapitów i kolejnych odpowiedzi na zadania.
+8. **Pułapka zwracania się per „Ty” w pracy akademickiej:** Formy typu `zauważysz`, `musisz wiedzieć`, `wyobraź sobie` w rozprawce lub eseju na studia są rażącym błędem stylistycznym i sygnałem AI.
+9. **Pułapka „halucynacji faktograficznej” i zmyślonych badań:** Nie dopisuj od siebie przyczyn, dat, nazwisk, okrągłych procentów bez źródła ani fikcyjnych pozycji bibliograficznych, których nie było w tekście użytkownika.
+10. **Pułapka zgubienia lub pomylenia daty albo liczby:** Podczas zmiany szyku zdania nie wolno przestawić daty do innego wydarzenia ani zaokrąglić liczby (np. `17 września 1939` nie może zamienić się w `w połowie września`).
+11. **Pułapka usuwania terminów przedmiotowych i konkretów z zajęć:** Nie opisuj naokoło pojęć wymaganych na sprawdzianie (np. `unia personalna`, `deklasacja`, `gospodarstwa towarowe`) i nigdy nie wycinaj nazwisk badaczy czy lektur omawianych na wykładzie.
+12. **Pułapka mowy potocznej i błędów językowych:** Prosty język szkolny musi pozostać poprawny gramatycznie, ortograficznie i interpunkcyjnie (zakaz słów typu `mega`, `fajnie`, `totalnie`, `super`, `ogólnie rzecz biorąc`).
+13. **Pułapka „imiesłowowych ogonów” i powtarzalnych otwarć:** Dopisywanie na końcu zdania `, co doprowadziło do...` lub zaczynanie kolejnych zdań od `Warto...`, `Należy...`, `Kolejnym...`, `Istotnym...` natychmiast podbija wynik w detektorze.
+14. **Pułapka identycznego rytmu zdań:** Jeśli wszystkie zdania po przeróbce mają po 12 słów i ten sam szyk (podmiot + orzeczenie + dopełnienie), detektor oznaczy tekst jako maszynowy. Mieszaj krótkie zdania (4-8 słów) z dłuższymi (14-22 słowa).
+15. **Pułapka komentarzy modelu:** Nigdy nie dodawaj przed tekstem ani po nim zdań typu `Oto przeredagowany tekst:` albo `Mam nadzieję, że to pomoże!`. Oddajesz wyłącznie czysty tekst docelowy.
 
 ## Przykłady i testy wzorcowe
 
@@ -284,3 +295,23 @@ Zwróć użytkownikowi wyłącznie gotowy, czysty tekst, bez żadnych wstępów,
 > Zamknięcie wielu lokalnych linii sprawiło, że mieszkańcy mniejszych miejscowości stracili wygodny dojazd do pracy oraz szkół. Połączenia autobusowe nie zdołały w pełni zastąpić pociągów, dlatego wiele osób musiało kupić własny samochód. Brak sprawnego transportu publicznego jeszcze bardziej powiększył różnice między dużymi miastami a mniejszymi ośrodkami.
 >
 > Ograniczenie tego zjawiska wymaga dziś przemyślanych działań ze strony państwa.
+
+### Test 11: Historia – Odpowiedzi na zadania ze sprawdzianu (Łamanie symetrii i gładkości podręcznikowej pod Pangram 4.1)
+
+**Tekst wejściowy:**
+> Zadanie 2
+> Po zniesieniu granicy celnej w 1851 roku polskie fabryki mogły bez przeszkód sprzedawać swoje towary na wielkim rynku rosyjskim. Szybko wzrosło zapotrzebowanie na wyroby przemysłowe, dlatego powstawały kolejne zakłady i nowe miejsca pracy. Najwięcej zyskał na tej zmianie przemysł włókienniczy.
+>
+> Zadanie 3
+> Wieś w Galicji zmagała się przede wszystkim z przeludnieniem oraz dużym rozdrobnieniem gospodarstw. Tamtejsze rolnictwo pozostawało zacofane i dawało niskie plony. Zupełnie inaczej wyglądała sytuacja w zaborze pruskim, gdzie rolnicy korzystali z nowocześniejszych metod uprawy i prowadzili bardziej towarowe gospodarstwa.
+
+**Źle (wygładzone zwroty podręcznikowe i symetryczne pary wykrywane przez Pangram jako AI Assisted):**
+> Zadanie 3
+> Wieś w Galicji zmagała się przede wszystkim z przeludnieniem oraz dużym rozdrobnieniem gospodarstw. Tamtejsze rolnictwo pozostawało zacofane i dawało niskie plony. Zupełnie inaczej wyglądała sytuacja w zaborze pruskim, gdzie rolnicy korzystali z nowocześniejszych metod uprawy i prowadzili bardziej towarowe gospodarstwa.
+
+**Dobrze (złamana symetria par, brak fraz z repetytorium, naturalna składnia uczniowska przy zachowaniu 100% faktów):**
+> Zadanie 2
+> W 1851 roku zlikwidowano granicę celną z Rosją i polskie fabryki mogły bez ograniczeń wysyłać swoje towary na tamtejszy rynek. Zapotrzebowanie na wyroby przemysłowe mocno skoczyło, więc szybko otwierano kolejne zakłady i przybywało pracy dla ludzi. Najbardziej rozwinęło się wtedy włókiennictwo.
+>
+> Zadanie 3
+> Na galicyjskiej wsi najgorsze było przeludnienie oraz to, że gospodarstwa były bardzo rozdrobnione. Rolnictwo stało tam na niskim poziomie i dawało słabe plony. W zaborze pruskim było odwrotnie, bo rolnicy używali nowocześniejszych metod uprawy, a ich gospodarstwa miały charakter towarowy.
